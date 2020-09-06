@@ -65,8 +65,7 @@ namespace Time_Table_Arranging_Program.Class.Helper {
                 context.Close();
             }
 
-            result.Render(drawingvisual);
-            return result;
+    
         }
 
         public static string Reverse(this string s) {
