@@ -32,12 +32,7 @@ namespace NUnit.Tests1 {
         }
 
         [Test]
-        public void TestTimeClass2() {
-            var time1 = new Time(8 , 0);
-            var time2 = new Time(0 , 35);
-            var time3 = time1 - time2;
-            var expected = new Time(7 , 25);
-            Assert.True(expected == time3);
+
         }
 
         [Test]
