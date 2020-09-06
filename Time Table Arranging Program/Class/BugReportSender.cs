@@ -1,5 +1,4 @@
-﻿using System;
-using Octokit;
+
 
 namespace Time_Table_Arranging_Program.Class {
     public class BugReportSender {
