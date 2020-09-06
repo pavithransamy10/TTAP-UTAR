@@ -27,7 +27,7 @@ namespace Time_Table_Arranging_Program.Class.Helper {
             for (int i = 0; i < input.Count; i++) {
                 vector[input[i]] = true;
             }
-            return vector;
+         
         }
 
         public static BitArray ToBitArray(this int x) {
